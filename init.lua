@@ -6,7 +6,6 @@
 -- LICENSE: GPLv3 (included in parent directory)
 -- bouncy.ogg, Blender Foundation, CC-BY-3.0 (https://creativecommons.org/licenses/by/3.0/legalcode)
 
-
 -- Override Fancy Bed
 minetest.override_item("beds:fancy_bed_bottom", {
 	groups = {choppy = 2, oddly_breakable_by_hand = 2, flammable = 3, bed = 1, fall_damage_add_percent=-40, bouncy=85},
@@ -14,6 +13,14 @@ minetest.override_item("beds:fancy_bed_bottom", {
 		footstep = {
 			name = "bouncy",
 			gain = 0.8
+		}
+		dig = {
+		        name = "default_dig_oddly_breakable_by_hand",
+		        gain = 1.0
+		}
+		dug = {
+			name = "default_dug_node",
+			gain = 1.0
 		}
 	}
 })
@@ -23,6 +30,14 @@ minetest.override_item("beds:fancy_bed_top", {
                 footstep = {
                         name = "bouncy",
                         gain = 0.8
+                }
+                dig = {
+                        name = "default_dig_oddly_breakable_by_hand",
+                        gain = 1.0
+                }
+                dug = {
+                        name = "default_dug_node",
+                        gain = 1.0
                 }
         }
 })
@@ -35,6 +50,14 @@ minetest.override_item("beds:bed_bottom", {
                         name = "bouncy",
                         gain = 0.8
                 }
+                dig = {
+                        name = "default_dig_oddly_breakable_by_hand",
+                        gain = 1.0
+                }
+                dug = {
+                        name = "default_dug_node",
+                        gain = 1.0
+                }
         }
 })
 minetest.override_item("beds:bed_top", {
@@ -43,6 +66,14 @@ minetest.override_item("beds:bed_top", {
                 footstep = {
                         name = "bouncy",
                         gain = 0.8
+                }
+                dig = {
+                        name = "default_dig_oddly_breakable_by_hand",
+                        gain = 1.0
+                }
+                dug = {
+                        name = "default_dug_node",
+                        gain = 1.0
                 }
         }
 })
