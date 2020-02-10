@@ -4,7 +4,7 @@
 -- Code by FreeGamers.org
 -- Idea by kiopy7
 -- LICENSE: GPLv3 (included in parent directory)
--- bouncy.ogg, Blender Foundation, CC-BY-3.0
+-- bouncy.ogg, Blender Foundation, CC-BY-3.0 (https://creativecommons.org/licenses/by/3.0/legalcode)
 
 
 -- Override Fancy Bed
