@@ -2,7 +2,7 @@ minetest_game mod: bouncy_beds
 ==============================
 
 # Bouncy Bed
-![screenshot](https://www.notabug.org/FreeGamers/bouncy_bed/raw/master/Screenshot.png)
+![screenshot](https://www.notabug.org/MeseCraft/bouncy_bed/raw/master/Screenshot.png)
 
 ## Description
 Add some childish fun to the game by making the default beds bouncy! Yes it does exactly what it says on the tin! Enjoy reckless bounces by abusing your in-game mattresses and getting some airtime.
